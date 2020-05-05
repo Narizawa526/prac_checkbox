@@ -2,7 +2,7 @@
 <p>当てはまる悩みの□にチェックを入れてください。</p>
 <p><%= @msg %></p>
 <h1>暴言・無視</h1>
-<% form_tag(controllr: "c_search" , action: "search") do %>
+<%= form_tag(controllr: "c_search" , action: "search") do %>
   <%= check_box_tag("check1") %>
   <%= label_tag("check1" , "家族・親戚から")%>
   <%= submit_tag("相談先を探す")%>

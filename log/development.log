@@ -19,3 +19,41 @@ Processing by CSearchController#search as HTML
 Completed 200 OK in 313ms (Views: 309.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/c_search" for ::1 at 2020-05-06 00:38:08 +0900
+Processing by CSearchController#search as HTML
+  Rendering c_search/search.html.erb within layouts/application
+  Rendered c_search/search.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 274ms (Views: 262.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/c_search" for ::1 at 2020-05-06 00:38:38 +0900
+Processing by CSearchController#search as HTML
+  Rendering c_search/search.html.erb within layouts/application
+  Rendered c_search/search.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 67ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/c_search/search?controllr=c_search" for ::1 at 2020-05-06 00:38:44 +0900
+Processing by CSearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1sdNifuveOEL8sKbiYvObNgne067FHP8ErkjsjfjlhwldsVeqp9gr9AElQ4Znp8dw6F3S1fdvyZIKnPFjwHTIA==", "check1"=>"1", "commit"=>"相談先を探す", "controllr"=>"c_search"}
+  Rendering c_search/search.html.erb within layouts/application
+  Rendered c_search/search.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 80ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/c_search/search?controllr=c_search" for ::1 at 2020-05-06 00:38:49 +0900
+Processing by CSearchController#search as HTML
+  Parameters: {"controllr"=>"c_search"}
+  Rendering c_search/search.html.erb within layouts/application
+  Rendered c_search/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/c_search/search?controllr=c_search" for ::1 at 2020-05-06 00:40:18 +0900
+Processing by CSearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ql2ra69lTLWrsYZ9aenY8HtCWbwGHWdoIVodLOVZ3TBZ7CO8/lVU+3BH0ej5/ImBYMRVuerUq7J7yU1bXbuYDA==", "check1"=>"1", "commit"=>"相談先を探す", "controllr"=>"c_search"}
+  Rendering c_search/search.html.erb within layouts/application
+  Rendered c_search/search.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 37ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
